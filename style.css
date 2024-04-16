@@ -26,7 +26,7 @@ body {
 .cont {
   background-color: var(--white);
   padding: 15px;
-  max-width: 25vw;
+  width: 400px;
   border-radius: 10px;
 }
 
@@ -52,12 +52,6 @@ body {
   padding: 23px;
 }
 
-@media (max-width: 600px) {
-  .cont {
-    max-width: 300px;
-  }
-}
-
 .attribution {
   margin-top: 25px;
   font-size: 15px;
@@ -66,4 +60,9 @@ body {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+@media (max-width: 400px) {
+  .attribution {
+    font-size: 14px;
+  }
 }
